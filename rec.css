@@ -1,0 +1,144 @@
+body {margin: 0;
+	
+}
+.error {color: #FF0000;}
+
+.FORM{
+    padding-left: 200px;
+    padding-right: 200px;   
+    padding-top: 50px;
+}
+.FORM2{
+  padding-left: 200px;
+    padding-right: 200px;   
+    padding-top: 50px;
+}
+.a2{
+    padding-top: 20px;
+    padding-left: 200px;
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+ 
+
+.navbar-fixed-top .nav {
+    padding: 15px 0;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#text{
+	font-size: 30px;
+	background:linear-gradient(to right, #ff9933 3%, #33ccff 17%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Aguafina Script' ;
+}
+#colo{
+	
+	border: 2px solid #ccc8c8;
+	padding: 50px ;
+	border-radius: 3%;
+
+
+}
+
+
+.circle-icon1 {
+    background: #549f0d	;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    padding: 20px;
+
+}
+.circle-icon2 {
+    background: #b0a328	;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    padding: 20px;
+
+}
+.circle-icon3 {
+    background: #cee513	;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    padding: 20px;
+
+}
+#icoon{
+	 position: absolute;
+
+ 
+       left: 40%;
+       top: -20%;
+}
+.background1{
+    background-size:cover;
+    opacity: .4;
+    
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: 1px solid #4CAF50;
+  border-radius: 20%;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+.button2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.btn-primary{
+  background-color:green;
+}
